@@ -8,7 +8,7 @@ Matrix::Matrix(int cols, int rows)
 	rows_ = rows;
 
 	elem_ = new double*[rows_];
-	//ToDo...a x b
+
 	for (int i = 0; i < rows_; i++)
 		elem_[i] = new double[cols_];
 
@@ -25,7 +25,7 @@ Matrix::Matrix(int cols)
 	cols_ = cols;
 
 	elem_ = new double*[cols_];
-	//ToDo...a x a
+	//a x a
 	for (int i = 0; i < cols_; i++)
 		elem_[i] = new double[cols_];
 }
@@ -59,7 +59,7 @@ Matrix & Matrix::operator ++()
 
 Matrix & Matrix::operator ++(int value)       
 {
-	Matrix temp = (*this);    //copy & return old copy
+	Matrix temp = (*this);    
 
 	for (int i = 0; i < rows_; i++)
 			for (int j = 0; j < cols_; j++)
@@ -95,7 +95,7 @@ double Matrix::GetAt(int i, int j)
 {
 	return elem_[i][j];
 }
-
+   
 void Matrix::SetCols(int& cols) { cols_ = cols; }
 void Matrix::SetRows(int& rows) { rows_ = rows; }
 

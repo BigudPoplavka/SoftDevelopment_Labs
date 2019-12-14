@@ -4,12 +4,6 @@
 #include <math.h>
 #include <stdio.h>
 
-//	EXE 2
-/* Преобразование: 2D → 1D. Двумерный массив 5х3 вещественных чисел необходимо
-выложить в один ряд по элементам по столбцам сверху вниз.
-Инициализация: заполнить массив числами x[i][j] = sin(i – j) + cos(i + j).
-Вывод на экран : на каждый элемент массива отвести 10 позиций.
-*/
 
 void OutputArray(double* arr, size_t arr_size)
 {
@@ -48,7 +42,7 @@ double* Array_ToOneD(double** arr2D, double* arr1D, size_t size_i, size_t size_j
 
 	return arr1D;
 }
-
+   
 
 int main()
 {
