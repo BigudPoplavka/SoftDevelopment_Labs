@@ -1,5 +1,5 @@
 # SoftDevelopment_Labs
-Software development Las #SRS # SDD #Git #refactoring
+Software development Labs #SRS # SDD #Git #refactoring
 - Лабораторные работы по технологиям разработки ПО
 Преподаватель - Шарий Тимофей Вятчеславович   :)
 
